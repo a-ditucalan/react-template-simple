@@ -1,0 +1,27 @@
+@charset 'UTF-8';
+
+// Configuration and helpers
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+// Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// Components
+@import
+  'components/buttons';
+
+// Page-specific styles
+@import
+  'pages/home',
+  'pages/about';
